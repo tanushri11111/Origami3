@@ -1,0 +1,93 @@
+h1 {
+    color: red;
+    margin-left: 30px;
+}
+
+/* {
+    border: solid;
+}*/
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+    
+}
+.menu{
+    margin-left: 1220px;
+    
+}
+
+h2,p{
+   
+    color : #057505
+}
+body{
+    background-color: #f19812
+}
+
+.Camel{
+    margin-top: 70px;
+  
+}
+.Chameleon{
+    margin-top: 70px;
+   margin-left: 60px;
+}
+.Pigeon{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.Bear{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.Panda{
+    margin-top: 70px;
+  
+}
+.Cicada{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.grid img{
+    border:2px solid #ff0000;
+    border-radius: 25%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Back p{
+    position :absolute;
+    top : 10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: red;
+}
+.Back h3{
+    position :absolute;
+    top : 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color : white;
+    justify-content: center;
+    text-align: center;
+}
+/*.items {
+    position:relative;
+}
+.items p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.items:hover p{
+opacity: 1;
+}
+.items:hover img{
+opacity: 0.4;
+}*/
